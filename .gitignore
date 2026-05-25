@@ -1,0 +1,52 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test, lint, and build artifacts
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Streamlit and local secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+firebase_key.json
+serviceAccountKey.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+.Rhistory
+
+# Notebook scratch files
+.ipynb_checkpoints/
+Untitled-*.ipynb
+
+# Local uploads, generated documents, and temporary reports
+*.pdf
+*.docx
+scholarfix_*.md
+scholarfix_*.txt
+redpen_*.pdf
+tmp/
+temp/
+
+# Accidental downloaded font/cache artifacts
+DejaVuSans*.ttf
+reports/DejaVuSans*.ttf
+reports/*.pkl

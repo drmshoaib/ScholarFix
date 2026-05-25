@@ -1,0 +1,10 @@
+# Historical frozen environment files often contain local machine paths.
+# For reproducible setup, use requirements.txt or pyproject.toml instead.
+streamlit
+PyMuPDF
+pylatexenc
+openai
+reportlab
+python-docx
+python-dotenv
+firebase-admin

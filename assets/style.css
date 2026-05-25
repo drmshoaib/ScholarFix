@@ -1,0 +1,92 @@
+/* ScholarFix Streamlit theme */
+
+h1, h2, h3 {
+  color: #1f2937;
+}
+
+section.main > div {
+  background-color: #fbfbfd;
+  padding: 1rem 2rem;
+}
+
+.app-header {
+  margin-top: 0.4rem;
+}
+
+.app-title {
+  color: #172554;
+  font-size: 2.1rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.app-subtitle {
+  color: #475569;
+  font-size: 0.98rem;
+  margin-top: 0.4rem;
+}
+
+.metric-card {
+  min-height: 92px;
+  padding: 0.85rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #ffffff;
+  margin-bottom: 0.75rem;
+}
+
+.metric-label {
+  color: #64748b;
+  font-size: 0.78rem;
+  margin-bottom: 0.35rem;
+}
+
+.metric-value {
+  color: #111827;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.metric-help {
+  color: #64748b;
+  font-size: 0.75rem;
+  margin-top: 0.35rem;
+}
+
+.empty-state,
+.hint-box {
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #ffffff;
+  margin-top: 0.75rem;
+}
+
+.empty-title {
+  color: #111827;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.stButton > button,
+.stDownloadButton > button {
+  background-color: #1e3a5f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+.stTextArea textarea,
+.stSelectbox,
+.stFileUploader {
+  border-radius: 6px !important;
+}
+
+footer {
+  color: #64748b;
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 3rem;
+}

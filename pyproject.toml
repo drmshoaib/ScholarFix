@@ -1,0 +1,44 @@
+[project]
+name = "redpen-mvp"
+version = "0.1.0"
+description = "Streamlit MVP for AI-assisted academic manuscript feedback and rewrite exports."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Dr. Muhammad Shoaib" }
+]
+dependencies = [
+  "streamlit",
+  "PyMuPDF",
+  "pylatexenc",
+  "openai",
+  "reportlab",
+  "python-docx",
+  "python-dotenv",
+  "firebase-admin",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "ruff",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+exclude = [
+  ".venv",
+  "venv",
+  "__pycache__",
+  "archive",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

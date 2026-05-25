@@ -1,0 +1,8 @@
+streamlit
+PyMuPDF
+pylatexenc
+openai
+reportlab
+python-docx
+python-dotenv
+firebase-admin
